@@ -5,9 +5,10 @@ import (
 	"errors"
 	"io"
 
-	"github.com/gwuhaolin/livego/protocol/amf"
-	"github.com/gwuhaolin/livego/av"
 	"log"
+
+	"github.com/teletraan/livego/av"
+	"github.com/teletraan/livego/protocol/amf"
 )
 
 var (

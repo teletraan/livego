@@ -2,14 +2,15 @@ package main
 
 import (
 	"flag"
-	"github.com/gwuhaolin/livego/configure"
-	"github.com/gwuhaolin/livego/protocol/hls"
-	"github.com/gwuhaolin/livego/protocol/httpflv"
-	"github.com/gwuhaolin/livego/protocol/httpopera"
-	"github.com/gwuhaolin/livego/protocol/rtmp"
 	"log"
 	"net"
 	"time"
+
+	"github.com/teletraan/livego/configure"
+	"github.com/teletraan/livego/protocol/hls"
+	"github.com/teletraan/livego/protocol/httpflv"
+	"github.com/teletraan/livego/protocol/httpopera"
+	"github.com/teletraan/livego/protocol/rtmp"
 )
 
 var (

@@ -2,12 +2,13 @@ package httpflv
 
 import (
 	"encoding/json"
-	"strings"
+	"log"
 	"net"
 	"net/http"
-	"log"
-	"github.com/gwuhaolin/livego/av"
-	"github.com/gwuhaolin/livego/protocol/rtmp"
+	"strings"
+
+	"github.com/teletraan/livego/av"
+	"github.com/teletraan/livego/protocol/rtmp"
 )
 
 type Server struct {

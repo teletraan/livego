@@ -1,15 +1,16 @@
 package hls
 
 import (
-	"fmt"
-	"time"
 	"bytes"
-	"log"
 	"errors"
-	"github.com/gwuhaolin/livego/parser"
-	"github.com/gwuhaolin/livego/av"
-	"github.com/gwuhaolin/livego/container/flv"
-	"github.com/gwuhaolin/livego/container/ts"
+	"fmt"
+	"log"
+	"time"
+
+	"github.com/teletraan/livego/av"
+	"github.com/teletraan/livego/container/flv"
+	"github.com/teletraan/livego/container/ts"
+	"github.com/teletraan/livego/parser"
 )
 
 const (
